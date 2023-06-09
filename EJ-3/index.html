@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Actividad #3 Carlos Ferrer</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Calculo de datos de Alumnos</h1>
+    </header>
+    <div class="container">
+      <form id="formulario">
+        <div class="input-container">
+          <label for="cantidad_alumnos" class="labelMain"
+            >Ingrese la cantidad de alumnos a evaluar:</label
+          >
+          <input type="number" id="cantidad_alumnos" required min="1" />
+        </div>
+        <button onclick="enviarFormularios()" class="botonEnviar">
+          Enviar
+        </button>
+        <button onclick="reiniciarPagina()" class="botonEnviar">
+            Reiniciar
+        </button>
+      </form>
+      <div id="formularios-generados"></div>
+      <button id="enviar-datos" class="hidden enviarinfo">
+        Enviar Informacion
+      </button>
+      <div id="resultados">
+        <h2 id="h2-header" class="hidden">
+          Datos de los Alumnos y las Materias
+        </h2>
+        <div class="result-container">
+          <h3 id="promedio-matematicas"></h3>
+          <h3 id="promedio-fisica"></h3>
+          <h3 id="promedio-programacion"></h3>
+          <h3 id="aprobados-matematicas"></h3>
+          <h3 id="aprobados-fisica"></h3>
+          <h3 id="aprobados-programacion"></h3>
+          <h3 id="aplazados-matematicas"></h3>
+          <h3 id="aplazados-fisica"></h3>
+          <h3 id="aplazados-programacion"></h3>
+          <h3 id="aprobados-todas-materias"></h3>
+          <h3 id="aprobados-una-materia"></h3>
+          <h3 id="aprobados-dos-materias"></h3>
+          <h3 id="nota-maxima-matematicas"></h3>
+          <h3 id="nota-maxima-fisica"></h3>
+          <h3 id="nota-maxima-programacion"></h3>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>

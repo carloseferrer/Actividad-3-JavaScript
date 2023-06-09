@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0fbfc;
+  color: #293241;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: #293241;
+}
+
+h2 {
+  color: #3d5a80;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+#resultados {
+  margin-top: 30px;
+}
+
+#resultados > div {
+  margin-bottom: 5px;
+}
+
+.result-container {
+  margin-bottom: 20px;
+}
+
+.result-container h3 {
+  color: #293241;
+}
+
+#promedio-matematicas,
+#promedio-fisica,
+#promedio-programacion {
+  color: #293241;
+}
+
+#aplazados-matematicas,
+#aplazados-fisica,
+#aplazados-programacion {
+  color: #ee6c4d;
+}
+
+#aprobados-matematicas,
+#aprobados-fisica,
+#aprobados-programacion {
+  color: #06d6a0;
+}
+
+#aprobados-todas-materias,
+#aprobados-una-materia,
+#aprobados-dos-materias {
+  color: #06d6a0;
+}
+
+#nota-maxima-matematicas,
+#nota-maxima-fisica,
+#nota-maxima-programacion {
+  color: #293241;
+}
+
+.hidden {
+  display: none;
+}
+
+.enviarinfo {
+  background-color: #3d5a80;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 50vh;
+  border-radius: 12px;
+}
+
+.botonEnviar {
+  background-color: #3d5a80;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 50vh;
+  border-radius: 12px;
+}
+
+.enviarinfo:hover {
+  background-color: #576479;
+}
+
+.botonEnviar:hover {
+  background-color: #576479;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.labelMain {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}
+
+#cantidad_alumnos {
+  width: 50vh;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+#formularios-generados label {
+  font-weight: bold;
+  color: #293241;
+  font-size: large;
+}
+
+#formularios-generados input {
+  width: 50vh;
+  padding: 10px;
+  border-radius: 20px;
+}
